@@ -1,6 +1,8 @@
 import { MetadataRoute } from "next";
 import { cities, counties } from "@/lib/locationData";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://cswinterslaw.com";
 
