@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-white text-text-body;
+    line-height: 1.7;
+  }
+  
+  img {
+    @apply block max-w-full h-auto;
+  }
+}
+
+@layer components {
+  .container {
+    @apply w-full max-w-container mx-auto px-6;
+  }
+  
+  .section {
+    @apply py-20 px-6;
+  }
+  
+  .section--off {
+    @apply bg-off-white;
+  }
+  
+  .section--dark {
+    @apply bg-navy text-white;
+  }
+  
+  .eyebrow {
+    @apply block text-xs font-semibold tracking-widest uppercase text-gold mb-3;
+  }
+  
+  .divider {
+    @apply w-12 h-[3px] bg-gold my-5;
+  }
+  
+  .divider--center {
+    @apply mx-auto;
+  }
+}
