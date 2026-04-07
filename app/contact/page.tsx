@@ -5,7 +5,7 @@ import { MapPin, Phone, Mail } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Contact Christopher S. Winters - 6061 South Broadway, Lorain, OH. Call 1-877-221-2224 or send a message online.",
+  description: "Contact Christopher S. Winters - 26550 Primrose Ln, Westlake, OH. Call 1-877-221-2224 or send a message online.",
 };
 
 export default function ContactPage() {
@@ -53,14 +53,14 @@ export default function ContactPage() {
                   <div>
                     <div className="text-sm text-mid-gray mb-1">Address</div>
                     <a
-                      href="https://maps.google.com/?q=6061+South+Broadway,+Lorain,+OH"
+                      href="https://maps.google.com/?q=26550+Primrose+Ln,+Westlake,+OH+44145"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-navy hover:text-gold transition-colors"
                     >
-                      6061 South Broadway
+                      26550 Primrose Ln
                       <br />
-                      Lorain, OH, United States
+                      Westlake, OH 44145
                     </a>
                   </div>
                 </div>
@@ -106,7 +106,7 @@ export default function ContactPage() {
               <div className="mt-8 rounded overflow-hidden border border-light-gray">
                 <iframe
                   title="Office Location"
-                  src="https://maps.google.com/maps?q=6061+South+Broadway,+Lorain,+OH&output=embed"
+                  src="https://maps.google.com/maps?q=26550+Primrose+Ln,+Westlake,+OH+44145&output=embed"
                   width="100%"
                   height="300"
                   allowFullScreen
