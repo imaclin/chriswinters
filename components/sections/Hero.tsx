@@ -4,6 +4,17 @@ import { Button } from "@/components/ui/Button";
 export function Hero() {
   return (
     <section className="relative bg-navy overflow-hidden">
+      {/* Background fabric image */}
+      <div className="absolute inset-0 opacity-20">
+        <Image
+          src="/fabric.jpg"
+          alt=""
+          fill
+          className="object-cover"
+          priority
+        />
+      </div>
+
       {/* Background gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-navy-mid/50 to-transparent" />
 

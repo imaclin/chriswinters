@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 import { MapPin, Phone, Mail } from "lucide-react";
 
@@ -11,8 +12,18 @@ export default function ContactPage() {
   return (
     <>
       {/* Page Header */}
-      <section className="bg-navy-dark py-16">
-        <div className="container text-center">
+      <section className="relative bg-navy-dark py-16 overflow-hidden">
+        {/* Background fabric image */}
+        <div className="absolute inset-0 opacity-20">
+          <Image
+            src="/fabric.jpg"
+            alt=""
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
+        <div className="container text-center relative z-10">
           <span className="eyebrow">Reach Out</span>
           <h1 className="font-serif text-4xl font-bold text-white">Contact Us</h1>
         </div>

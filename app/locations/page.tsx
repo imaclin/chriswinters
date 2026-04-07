@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { cities, counties, getCitiesByCounty } from "@/lib/locationData";
 import { Button } from "@/components/ui/Button";
@@ -20,8 +21,18 @@ export default function LocationsIndexPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-navy-dark py-16 md:py-20">
-        <div className="container">
+      <section className="relative bg-navy-dark py-16 md:py-20 overflow-hidden">
+        {/* Background fabric image */}
+        <div className="absolute inset-0 opacity-20">
+          <Image
+            src="/fabric.jpg"
+            alt=""
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
+        <div className="container relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <span className="eyebrow mb-4">35+ Communities Served</span>
             <h1 className="font-serif text-4xl md:text-5xl font-bold text-white mb-6">

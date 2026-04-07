@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/Button";
 import { MapPin, GraduationCap, Clock, Users } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Home",
   description: "Experienced personal injury attorney serving Lorain and Cuyahoga County, Ohio. Fighting for the rights of hard-working Ohioans.",
   openGraph: {
     images: "/chriswinters.jpg",

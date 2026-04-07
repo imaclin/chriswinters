@@ -24,6 +24,9 @@ export const metadata: Metadata = {
   },
   description: "Experienced personal injury attorney serving Lorain and Cuyahoga County, Ohio. Fighting for the rights of hard-working Ohioans.",
   metadataBase: new URL("https://cswinterslaw.com"),
+  icons: {
+    icon: "/csw.jpg",
+  },
 };
 
 export default function RootLayout({

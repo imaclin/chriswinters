@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { cities, counties, getCityBySlug, getCountyBySlug, getCitiesByCounty } from "@/lib/locationData";
@@ -96,8 +97,18 @@ export default async function LocationPage({ params }: LocationPageProps) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         
-        <section className="bg-navy-dark py-16 md:py-20">
-          <div className="container">
+        <section className="relative bg-navy-dark py-16 md:py-20 overflow-hidden">
+          {/* Background fabric image */}
+          <div className="absolute inset-0 opacity-20">
+            <Image
+              src="/fabric.jpg"
+              alt=""
+              fill
+              className="object-cover"
+              priority
+            />
+          </div>
+          <div className="container relative z-10">
             <div className="max-w-3xl mx-auto text-center">
               <span className="eyebrow mb-4">Serving {cityData.name}, Ohio</span>
               <h1 className="font-serif text-4xl md:text-5xl font-bold text-white mb-6">
@@ -267,8 +278,18 @@ export default async function LocationPage({ params }: LocationPageProps) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       
-      <section className="bg-navy-dark py-16 md:py-20">
-        <div className="container">
+      <section className="relative bg-navy-dark py-16 md:py-20 overflow-hidden">
+        {/* Background fabric image */}
+        <div className="absolute inset-0 opacity-20">
+          <Image
+            src="/fabric.jpg"
+            alt=""
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
+        <div className="container relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <span className="eyebrow mb-4">Serving {countyData!.name}</span>
             <h1 className="font-serif text-4xl md:text-5xl font-bold text-white mb-6">
