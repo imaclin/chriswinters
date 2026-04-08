@@ -76,14 +76,14 @@ export default function AboutPage() {
               <div className="divider" />
 
               <p className="text-text-body mb-4">
-                Mr. Winters found himself drawn to the law field directly out of
-                high school, working as a county clerk. He then pursued a law
+                Mr. Winters found himself drawn to the law field directly 
+                after graduating from Elyria West high school as valedictorian. He then pursued a law
                 degree from the University of Akron School of Law, graduating
-                Juris Doctor (J.D.) and has been practicing law for over 38 years.
+                Juris Doctor (J.D.) and has been practicing law for 40+ years.
               </p>
               <p className="text-text-body mb-6">
                 When you experience an injury, everything can change &ndash; we
-                know that at CS Winters Law. With more than three decades of
+                know that at CS Winters Law. With more than four decades of
                 experience litigating on my clients&apos; behalf, you can focus on
                 recovering, instead of finding yourself overwhelmed and worried
                 about your court case.

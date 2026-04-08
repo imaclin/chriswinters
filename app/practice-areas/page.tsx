@@ -1,11 +1,11 @@
 import { Metadata } from "next";
 import Image from "next/image";
 import { Button } from "@/components/ui/Button";
-import { Shield, Truck, Users, Heart, Briefcase, Scale } from "lucide-react";
+import { Shield, Truck, Users, Heart, Stethoscope, Scale } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Practice Areas",
-  description: "Personal injury, car accidents, truck accidents, motorcycle accidents, workers compensation, wrongful death - legal services for Ohio residents.",
+  description: "Personal injury, car accidents, truck accidents, motorcycle accidents, medical malpractice, wrongful death - legal services for Ohio residents.",
 };
 
 const practiceAreas = [
@@ -34,10 +34,10 @@ const practiceAreas = [
       "Losing a loved one due to negligence is devastating. We help families seek justice and compensation for funeral expenses, lost income, and emotional suffering.",
   },
   {
-    icon: Briefcase,
-    title: "Workers' Compensation",
+    icon: Stethoscope,
+    title: "Medical Malpractice",
     description:
-      "Injured on the job? We help workers navigate the complex workers' comp system to ensure you receive the benefits you're entitled to while recovering.",
+      "When healthcare providers fail to meet the standard of care, patients suffer. We hold negligent doctors, nurses, and hospitals accountable for their mistakes.",
   },
   {
     icon: Scale,

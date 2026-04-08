@@ -50,7 +50,7 @@ export default function HomePage() {
               <div className="bg-white p-6 rounded shadow-sm border border-light-gray">
                 <GraduationCap className="w-8 h-8 text-navy mb-4" strokeWidth={1.5} />
                 <h3 className="font-serif text-lg font-bold text-navy mb-2">
-                  38+ Years of Experience
+                  40+ Years of Experience
                 </h3>
                 <p className="text-text-body text-sm">
                   A track record built on dedication, persistence, and results for

@@ -225,7 +225,7 @@ export default async function LocationPage({ params }: LocationPageProps) {
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <Gavel className="w-10 h-10 text-navy mb-4" strokeWidth={1.5} />
                 <h3 className="font-serif text-lg font-bold text-navy mb-2">Personal Injury</h3>
-                <p className="text-text-body text-sm mb-4">When you&apos;ve been injured due to negligence, we fight for your compensation.</p>
+                <p className="text-text-body text-sm mb-4">Injured due to negligence? We fight for the compensation you deserve.</p>
                 <Button href="/practice-areas" variant="outline-navy" className="w-full">Learn More</Button>
               </div>
             </div>
