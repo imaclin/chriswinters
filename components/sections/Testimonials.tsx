@@ -26,7 +26,7 @@ const testimonials = [
   },
   {
     quote:
-      "Thank you for all your hard work on her case. We will spread the word.",
+      "Thank you for all your hard work on our case. We will spread the word.",
     caseType: "Wrongful death of 55-year-old father",
   },
 ];
