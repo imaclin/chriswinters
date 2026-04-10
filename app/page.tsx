@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { Hero } from "@/components/sections/Hero";
+import { Testimonials } from "@/components/sections/Testimonials";
 import { Button } from "@/components/ui/Button";
 import { MapPin, GraduationCap, Clock, Users } from "lucide-react";
 
@@ -72,6 +73,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <Testimonials />
 
       {/* CTA Strip */}
       <section className="bg-navy py-16">
