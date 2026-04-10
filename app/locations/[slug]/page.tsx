@@ -142,7 +142,7 @@ export default async function LocationPage({ params }: LocationPageProps) {
                   {cityData.localInfo}
                 </p>
                 <p className="text-text-body mb-6">
-                  With over 38 years of experience representing clients throughout {county?.name}, 
+                  With 40+ years of experience representing clients throughout {county?.name}, 
                   Christopher S. Winters understands the unique challenges faced by {cityData.name} residents. 
                   Whether you&apos;ve been injured in a car accident, hurt at work, or suffered due to medical negligence, we provide personalized legal representation.
                 </p>
@@ -236,7 +236,7 @@ export default async function LocationPage({ params }: LocationPageProps) {
           <div className="container text-center">
             <h2 className="font-serif text-3xl font-bold text-white mb-4">Injured in {cityData.name}?</h2>
             <p className="text-white/80 mb-8 max-w-2xl mx-auto">
-              Don&apos;t navigate the legal system alone. With over 38 years of experience in {county?.name}, we&apos;re ready to fight for your rights.
+              Don&apos;t navigate the legal system alone. With 40+ years of experience in {county?.name}, we&apos;re ready to fight for your rights.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button href="/contact" variant="primary">Get Your Free Consultation</Button>
@@ -312,7 +312,7 @@ export default async function LocationPage({ params }: LocationPageProps) {
               <h2 className="font-serif text-3xl font-bold text-navy mb-4">Experienced in {countyData!.name} Courts</h2>
               <div className="divider" />
               <p className="text-text-body mb-6">
-                With over 38 years of experience practicing in {countyData!.name}, Christopher S. Winters has deep knowledge of the local court systems, judges, and legal procedures.
+                With 40+ years of experience practicing in {countyData!.name}, Christopher S. Winters has deep knowledge of the local court systems, judges, and legal procedures.
               </p>
               <Button href="/contact" variant="outline-navy">Schedule Your Free Consultation</Button>
             </div>
@@ -372,7 +372,7 @@ export default async function LocationPage({ params }: LocationPageProps) {
         <div className="container text-center">
           <h2 className="font-serif text-3xl font-bold text-white mb-4">Injured in {countyData!.name}?</h2>
           <p className="text-white/80 mb-8 max-w-2xl mx-auto">
-            No matter which city you call home, we&apos;re here to help. With 38 years of local experience.
+            No matter which city you call home, we&apos;re here to help. With 40+ years of local experience.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button href="/contact" variant="primary">Get Your Free Consultation</Button>

@@ -81,7 +81,7 @@ export default function PracticeAreasPage() {
             <div className="divider divider--center" />
             <p className="text-text-body">
               We focus on helping people who have been injured through no fault
-              of their own. With over 38 years of experience, we have the
+              of their own. With 40+ years of experience, we have the
               knowledge and dedication to fight for your rights.
             </p>
           </div>

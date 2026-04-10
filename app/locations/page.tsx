@@ -183,7 +183,7 @@ export default function LocationsIndexPage() {
                 <li className="flex items-start gap-3">
                   <span className="text-gold font-bold">3.</span>
                   <span>
-                    <strong>Community connections:</strong> 38 years of building 
+                    <strong>Community connections:</strong> 40+ years of building 
                     relationships with local medical providers, experts, and court personnel.
                   </span>
                 </li>
@@ -229,7 +229,7 @@ export default function LocationsIndexPage() {
             No Matter Where You Are in Lorain or Cuyahoga County
           </h2>
           <p className="text-white/80 mb-8 max-w-2xl mx-auto">
-            We&apos;re ready to fight for your rights. With 38 years of experience serving 
+            We&apos;re ready to fight for your rights. With 40+ years of experience serving 
             Northeast Ohio, Christopher S. Winters has the local knowledge and legal 
             expertise to help you get the compensation you deserve.
           </p>

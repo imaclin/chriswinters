@@ -5,7 +5,7 @@ import { Phone, GraduationCap, Clock, Award } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Learn about Christopher S. Winters - Juris Doctor, University of Akron School of Law, practicing law for over 38 years in Ohio.",
+  description: "Learn about Christopher S. Winters - Juris Doctor, University of Akron School of Law, practicing law for over 40 years in Ohio.",
 };
 
 export default function AboutPage() {
@@ -58,7 +58,7 @@ export default function AboutPage() {
                   </div>
                   <div className="flex items-center gap-3 text-text-body">
                     <Clock className="w-5 h-5 text-navy" />
-                    <span className="text-sm">38+ Years of Practice</span>
+                    <span className="text-sm">40+ Years of Practice</span>
                   </div>
                 </div>
               </div>
@@ -126,7 +126,7 @@ export default function AboutPage() {
           <div className="grid sm:grid-cols-3 gap-6">
             <div className="bg-white p-8 rounded shadow-sm text-center">
               <div className="font-serif text-4xl font-bold text-navy mb-3">
-                38+
+                40+
               </div>
               <h4 className="font-serif text-lg font-bold text-navy mb-2">
                 Years of Practice
@@ -169,7 +169,7 @@ export default function AboutPage() {
       <section className="bg-navy py-16">
         <div className="container text-center">
           <h2 className="font-serif text-3xl font-bold text-white mb-4">
-            Ready to Put 38 Years to Work for You?
+            Ready to Put 40+ Years to Work for You?
           </h2>
           <p className="text-white/80 mb-8 max-w-2xl mx-auto">
             Contact our office today. Let us handle the legal complexities while
